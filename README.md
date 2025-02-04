@@ -6,12 +6,12 @@ Each folder in this repository contains one step of the process, with detailed i
 
 ## Project Structure:
 
-### 1. [CosineExplorer](./CosineExplorer) (WIP)
+### 1. [CosineExplorer](./CosineExplorer) 
    - **What It Is**: In this module, you'll learn about **Cosine Similarity**, a key concept for measuring the similarity between texts. To make this concept easier to grasp, we'll start by using 2D vectors and visualizing them on a Cartesian plane. This simplified approach helps you understand the core idea before extending it to higher-dimensional vector spaces, which is how real-world text similarity is typically computed.
    - **What’s Inside**:
      - `CosineExplorer.py`: The code for calculating cosine similarity between 2D text vectors.
      - `README.md`: Detailed instructions on how to use the code and understand cosine similarity.
-   - **Article Link**: [Unlocking the Power of Cosine Similarity: The Heart of Text Understanding](#link-to-your-article)
+   - **Article Link**: [Unlocking the Power of Cosine Similarity: The Heart of Text Understanding](https://medium.com/@charan4u/unlocking-the-power-of-cosine-similarity-the-heart-of-text-understanding-eed427df745a)
    - **Sequence**: This is the first step in building your RAG system.
 
 
