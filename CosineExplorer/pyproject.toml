@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cosineexplorer"
+version = "0.1.0"
+description = "CosineExplorer allows users to explore and visualize cosine similarity between vectors in a 2D plane."
+authors = ["Gurucharan MK"]
+license = "{ file = \"..\LICENSE\" }"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.2"
+matplotlib = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
