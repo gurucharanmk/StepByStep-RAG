@@ -20,7 +20,7 @@ Each folder in this repository contains one step of the process, with detailed i
    - **What’s Inside**:
      - `SemanticSeek.py`: The code for semantic search, using techniques like vectorization and similarity to find meaningful results.
      - `README.md`: Instructions for setting up and running semantic search.
-   - **Article Link**: [Building Semantic Search: Beyond Keywords for Better Text Retrieval](#link-to-your-article)
+   - **Article Link**: [Building Semantic Search: Beyond Keywords for Better Text Retrieval](https://medium.com/@charan4u/building-semantic-search-beyond-keywords-for-better-text-retrieval-b7a27d9d4f8f)
    - **Sequence**: This is the second step after cosine similarity, where you learn how to retrieve relevant text.
 
 ### 3. [SimpleRAG](./SimpleRAG) (WIP)
