@@ -15,7 +15,7 @@ Each folder in this repository contains one step of the process, with detailed i
    - **Sequence**: This is the first step in building your RAG system.
 
 
-### 2. [SemanticSeek](./SemanticSeek) (WIP)
+### 2. [SemanticSeek](./SemanticSeek)
    - **What It Is**: This module covers **Semantic Search**, which takes the concept of simple keyword matching a step further. You'll build a search system that understands the meaning behind the text, not just the words.
    - **What’s Inside**:
      - `SemanticSeek.py`: The code for semantic search, using techniques like vectorization and similarity to find meaningful results.
