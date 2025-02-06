@@ -37,9 +37,27 @@ python SimpleRAG.py
 
 4. After running the script, enter your query when prompted, and the system will retrieve the most relevant hotel-related documents based on the query.
 
-### Example
+### Example Results with Positive and Negative Scenarios
 
 ```bash
+
+==================================================
+Basic Retrieval-Augmented Generation
+==================================================
+
+--------------------------------------------------
+Please enter your query regarding the hotel: How soon do I need to cancel to avoid penalties?
+Retreived context:
+ Guests can cancel their reservation free of charge up to 48 hours before the scheduled check-in date.
+Cancellations made within 24 hours of check-in will incur a 50% charge of the total booking cost.
+Refunds are only available for cancellations made within the allowed time frame, as per the hotel's cancellation policy.
+If a guest has prepaid for their stay and cancels within the eligible period, a full refund will be issued.
+To cancel your reservation, you can either call the hotel directly or cancel through our website.
+
+Answer: According to the provided context, to avoid penalties, you should cancel your reservation at least 48 hours before the scheduled check-in date. Cancellations made within this time frame will not incur any charges.
+--------------------------------------------------
+
+Do you want to search again? (y/Y to continue, any other key to quit): y
 
 ==================================================
 Basic Retrieval-Augmented Generation
@@ -54,7 +72,7 @@ Free parking is available for all guests staying at the hotel.
 Room service is available 24/7 for all guests.
 The hotel bar serves a variety of cocktails, wine, and snacks from 12:00 PM to midnight.
 
-Answer: Unfortunately, I couldn't find any information about the hotel providing a mini-fridge in the rooms. The provided context only mentions room features, amenities, and services such as laundry, parking, room service, and bar hours, but does not specifically mention the availability of mini-fridges.
+Answer: Unfortunately, I don't have any information about room features or specific amenities provided in the guest rooms.
 
 I cannot answer this based on the provided context. For more information, please contact the helpdesk at the number provided on our website.
 --------------------------------------------------
