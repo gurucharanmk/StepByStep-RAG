@@ -23,12 +23,12 @@ Each folder in this repository contains one step of the process, with detailed i
    - **Article Link**: [Building Semantic Search: Beyond Keywords for Better Text Retrieval](https://medium.com/@charan4u/building-semantic-search-beyond-keywords-for-better-text-retrieval-b7a27d9d4f8f)
    - **Sequence**: This is the second step after cosine similarity, where you learn how to retrieve relevant text.
 
-### 3. [SimpleRAG](./SimpleRAG) (WIP)
+### 3. [SimpleRAG](./SimpleRAG)
    - **What It Is**: In this module, you'll implement the **core RAG system**, combining the retrieval and generation components. This is where you’ll integrate your semantic search with a simple text generation model to build the RAG architecture.
    - **What’s Inside**:
      - `SimpleRAG.py`: The main code for implementing a simple RAG system using retrieval and generation.
      - `README.md`: Instructions for setting up and running the RAG system.
-   - **Article Link**: [The Basics of Retrieval-Augmented Generation: Bringing Search and Generation Together](#link-to-your-article)
+   - **Article Link**: [The Basics of Retrieval-Augmented Generation: Bringing Search and Generation Together](https://medium.com/@charan4u/the-basics-of-retrieval-augmented-generation-bringing-search-and-generation-together-ee043a8effa5)
    - **Sequence**: This is the third step in the process, after completing the search module.
 
 ### 4. [ConvoRAG](./ConvoRAG) (WIP)
