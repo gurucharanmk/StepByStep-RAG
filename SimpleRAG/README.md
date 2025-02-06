@@ -104,6 +104,22 @@ documents = [
 ```python
 relevant_documents = search(user_input, documents, document_embeddings, top_k=3)
 ```
+- **Embedding Model Customization**: You can choose which embedding model to use dynamically by passing a custom embedding model name. For example: Lets say "mxbai-embed-large"
+```python
+# Use other embedding model
+embedding = embed_text("Your text here", embedding_model="mxbai-embed-large")
+```
+- **Chat Model Customization**: The generate_answer function allows you to select a different model for generating responses. You can specify the model as needed. For example: Lets say "mistral"
+```python
+# Use a different chat model
+answer = generate_answer(system_prompt, user_prompt, model='mistral')
+```
+- **Customizing the System Prompt**: The system prompt can be adjusted dynamically. Here's an example where you customize the assistant's role and the context it works with:
+```python
+system_prompt = '''You are an AI assistant for a tech product support website. 
+You assist customers with issues like product setup, troubleshooting, warranty, and returns. 
+Respond to questions based on the context provided below, and if you cannot answer, direct them to customer support.'''
+```
 
 ## Cosine Similarity
 
