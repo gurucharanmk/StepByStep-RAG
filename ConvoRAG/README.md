@@ -131,7 +131,7 @@ ConvoRAG enhances traditional RAG systems by adding conversational awareness. He
 
 **Important Note on Educational Purpose and Query Processing Limitations**:
 
-This code is provided for educational purposes only and is not intended for production use. ConvoRAG serves as a demonstration of conversational RAG techniques and should be used primarily for learning and experimentation.
+This code is provided for educational purposes only and is not intended for production use. Using it as-is in production may introduce unforeseen risks or issues. ConvoRAG serves as a demonstration of conversational RAG techniques and should be used primarily for learning and experimentation.
 
 While ConvoRAG strives to accurately process all user queries, the query classification and contextualization components may occasionally fail to properly categorize or contextualize certain inputs. This can happen when:
 
