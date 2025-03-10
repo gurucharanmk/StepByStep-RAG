@@ -31,12 +31,12 @@ Each folder in this repository contains one step of the process, with detailed i
    - **Article Link**: [The Basics of Retrieval-Augmented Generation: Bringing Search and Generation Together](https://medium.com/@charan4u/the-basics-of-retrieval-augmented-generation-bringing-search-and-generation-together-ee043a8effa5)
    - **Sequence**: This is the third step in the process, after completing the search module.
 
-### 4. [ConvoRAG](./ConvoRAG) (WIP)
+### 4. [ConvoRAG](./ConvoRAG) 
    - **What It Is**: Finally, in this module, you’ll add **conversational capabilities** to your RAG system. This makes your system capable of handling ongoing interactions, simulating a chatbot-like experience.
    - **What’s Inside**:
      - `ConvoRAG.py`: The code for integrating conversational flow into your RAG system.
      - `README.md`: Instructions for implementing and running the conversational RAG system.
-   - **Article Link**: [Creating Conversational RAG: Taking Your AI Interactions to the Next Level](#link-to-your-article)
+   - **Article Link**: [Creating Conversational RAG: Taking Your AI Interactions to the Next Level](https://medium.com/@charan4u/creating-conversational-rag-taking-your-ai-interactions-to-the-next-level-6b188f945cfe)
    - **Sequence**: This is the last step in your journey, where you complete the RAG system with conversational features.
 
 ---
