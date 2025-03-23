@@ -39,6 +39,15 @@ Each folder in this repository contains one step of the process, with detailed i
    - **Article Link**: [Creating Conversational RAG: Taking Your AI Interactions to the Next Level](https://medium.com/@charan4u/creating-conversational-rag-taking-your-ai-interactions-to-the-next-level-6b188f945cfe)
    - **Sequence**: This is the last step in your journey, where you complete the RAG system with conversational features.
 
+### 5. [RAGStream](./RAGStream) (Bonus)
+   - **What It Is**: RAGStream is an interactive application that leverages Retrieval-Augmented Generation (RAG) to deliver context-aware, adaptive dialogues in real-time. Built with Streamlit, it supports streaming features for dynamic conversations. This module takes the previous concepts of semantic search and RAG systems to the next level by enabling real-time, coherent conversations that evolve with each interaction. The app also includes doc upload and chunking capabilities for an enhanced user experience, providing a more detailed and responsive chat flow based on uploaded content.
+   - **What’s Inside**:
+     - `RAGStream.py`: The main code that implements the RAG system with streaming support and conversational features. This code integrates the RAG architecture with real-time conversation and document chunking.
+     - `README.md`: Instructions on how to run and set up RAGStream, including detailed information on doc uploads, Streamlit features, and debugging options.
+     - `GrandPalaceHotelDocument.txt`: A sample document that can be uploaded to the RAGStream app to showcase the chunking and retrieval features of the system. The app processes this document for adaptive conversations based on its content.
+   - **Article Link**: [Building a Free, Open-Source RAG System: A Deep Dive]()
+   - **Sequence**: This is a **bonus module** that takes your RAG journey a step further. After completing **ConvoRAG**, where you integrated conversational flow into the system, **RAGStream** builds on this by adding real-time interactivity, streaming support, and document upload capabilities for a fully immersive and adaptable AI-driven conversation experience.
+
 ---
 
 ## How to Get Started:
