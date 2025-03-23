@@ -45,7 +45,7 @@ Each folder in this repository contains one step of the process, with detailed i
      - `RAGStream.py`: The main code that implements the RAG system with streaming support and conversational features. This code integrates the RAG architecture with real-time conversation and document chunking.
      - `README.md`: Instructions on how to run and set up RAGStream, including detailed information on doc uploads, Streamlit features, and debugging options.
      - `GrandPalaceHotelDocument.txt`: A sample document that can be uploaded to the RAGStream app to showcase the chunking and retrieval features of the system. The app processes this document for adaptive conversations based on its content.
-   - **Article Link**: [Building a Free, Open-Source RAG System: A Deep Dive]()
+   - **Article Link**: [Building a Free, Open-Source RAG System: A Deep Dive](https://medium.com/@charan4u/building-a-free-open-source-rag-system-a-deep-dive-bed4b59ee6b6)
    - **Sequence**: This is a **bonus module** that takes your RAG journey a step further. After completing **ConvoRAG**, where you integrated conversational flow into the system, **RAGStream** builds on this by adding real-time interactivity, streaming support, and document upload capabilities for a fully immersive and adaptable AI-driven conversation experience.
 
 ---
