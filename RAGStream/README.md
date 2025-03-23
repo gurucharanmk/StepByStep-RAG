@@ -58,7 +58,7 @@ The application enhances traditional RAG systems by adding conversational awaren
 
 To run RAGStream Hotel Information Assistant, you'll need:
 
-- Python 3.6 or higher
+- Python 3.11 or higher
 - Streamlit
 - Numpy
 - Ollama
