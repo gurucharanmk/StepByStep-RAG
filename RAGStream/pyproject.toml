@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ragstream"
+version = "0.1.0"
+description = "RAGStream is an interactive app built from scratch with Streamlit, leveraging Retrieval-Augmented Generation for context-aware, adaptive dialogues. With streaming support, it delivers real-time, relevant, and coherent conversations"
+authors = ["Gurucharan MK"]
+license = "{ file = \"LICENSE\" }"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.4"
+streamlit = "^1.43.2"
+ollama = "^0.4.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
