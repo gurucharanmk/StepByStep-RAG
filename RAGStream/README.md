@@ -84,7 +84,7 @@ The application requires [Ollama](https://ollama.ai/) to be installed and the fo
 3. Run the Streamlit application:
 
 ```bash
-streamlit run app.py
+streamlit run RAGStream.py
 ```
 
 4. Open your web browser and navigate to the URL displayed in the terminal
